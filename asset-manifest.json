@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cinemanite/static/css/main.49e71d0b.chunk.css",
+    "main.js": "/cinemanite/static/js/main.7123d6ed.chunk.js",
+    "main.js.map": "/cinemanite/static/js/main.7123d6ed.chunk.js.map",
+    "runtime~main.js": "/cinemanite/static/js/runtime~main.2eb06c1a.js",
+    "runtime~main.js.map": "/cinemanite/static/js/runtime~main.2eb06c1a.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/cinemanite/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.177fd765.chunk.js": "/cinemanite/static/js/2.177fd765.chunk.js",
+    "static/js/2.177fd765.chunk.js.map": "/cinemanite/static/js/2.177fd765.chunk.js.map",
+    "index.html": "/cinemanite/index.html",
+    "precache-manifest.2a91bcefdcdc3c2c759e9f98048ff1d9.js": "/cinemanite/precache-manifest.2a91bcefdcdc3c2c759e9f98048ff1d9.js",
+    "service-worker.js": "/cinemanite/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/cinemanite/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.49e71d0b.chunk.css.map": "/cinemanite/static/css/main.49e71d0b.chunk.css.map"
+  }
+}
