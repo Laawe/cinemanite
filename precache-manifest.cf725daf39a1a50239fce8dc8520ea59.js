@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "308cc95ef00bd7ba8ee29163df0b8529",
+    "revision": "2af038cd2d7179a531c82e6b77b55321",
     "url": "/cinemanite/index.html"
   },
   {
