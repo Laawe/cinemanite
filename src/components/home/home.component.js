@@ -7,11 +7,6 @@ export class HomeComponent extends Component{
     render(){
         return(
     <div>
-        <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="https://web.facebook.com/cinemanite/" target="_blank">
-            {' CINEMANITE '}
-          </Navbar.Brand>
-        </Navbar>
             <Jumbotron className="jumbotron_custom">
               <h1>cinemanite</h1>
               <p>
