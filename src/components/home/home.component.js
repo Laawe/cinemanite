@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Jumbotron, Button, Navbar, Card, Container, Row, Col, Image } from 'react-bootstrap';
+import { Jumbotron, Button, Card, Container, Row, Col, Image } from 'react-bootstrap';
 import "./home.component.css"
 
 export class HomeComponent extends Component{
@@ -24,7 +24,7 @@ export class HomeComponent extends Component{
                         Realizamos cobertura de eventos culturales y musicales.
                       </Card.Text>
                       <Button variant="primary" className="button_custom">
-                        <a className="watch_video" target="_blank" href="https://www.youtube.com/watch?v=-wjTEUIYRRQ">Ver Video</a>
+                        <a className="watch_video" target="_blank"  rel="noopener noreferrer" href="https://www.youtube.com/watch?v=-wjTEUIYRRQ">Ver Video</a>
                       </Button>
                     </Card.Body>
                   </Card>
@@ -38,7 +38,7 @@ export class HomeComponent extends Component{
                       Creemos en el cine y por eso realizamos documentales.
                     </Card.Text>
                     <Button variant="primary" className="button_custom">
-                    <a className="watch_video" target="_blank" href="https://www.youtube.com/watch?v=2EUImS3OFb8">Ver Video</a>
+                    <a className="watch_video" target="_blank"  rel="noopener noreferrer" href="https://www.youtube.com/watch?v=2EUImS3OFb8">Ver Video</a>
                     </Button>
                   </Card.Body>
                 </Card>
