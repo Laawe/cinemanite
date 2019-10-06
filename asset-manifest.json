@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/cinemanite/static/css/main.49e71d0b.chunk.css",
-    "main.js": "/cinemanite/static/js/main.7123d6ed.chunk.js",
-    "main.js.map": "/cinemanite/static/js/main.7123d6ed.chunk.js.map",
+    "main.css": "/cinemanite/static/css/main.b115b6a5.chunk.css",
+    "main.js": "/cinemanite/static/js/main.5f0d5d7e.chunk.js",
+    "main.js.map": "/cinemanite/static/js/main.5f0d5d7e.chunk.js.map",
     "runtime~main.js": "/cinemanite/static/js/runtime~main.2eb06c1a.js",
     "runtime~main.js.map": "/cinemanite/static/js/runtime~main.2eb06c1a.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/cinemanite/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.177fd765.chunk.js": "/cinemanite/static/js/2.177fd765.chunk.js",
-    "static/js/2.177fd765.chunk.js.map": "/cinemanite/static/js/2.177fd765.chunk.js.map",
+    "static/js/2.4c2892b4.chunk.js": "/cinemanite/static/js/2.4c2892b4.chunk.js",
+    "static/js/2.4c2892b4.chunk.js.map": "/cinemanite/static/js/2.4c2892b4.chunk.js.map",
     "index.html": "/cinemanite/index.html",
-    "precache-manifest.cf725daf39a1a50239fce8dc8520ea59.js": "/cinemanite/precache-manifest.cf725daf39a1a50239fce8dc8520ea59.js",
+    "precache-manifest.122be3d09623445e2be90d3ad8d46d61.js": "/cinemanite/precache-manifest.122be3d09623445e2be90d3ad8d46d61.js",
     "service-worker.js": "/cinemanite/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/cinemanite/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.49e71d0b.chunk.css.map": "/cinemanite/static/css/main.49e71d0b.chunk.css.map"
+    "static/css/main.b115b6a5.chunk.css.map": "/cinemanite/static/css/main.b115b6a5.chunk.css.map"
   }
 }
