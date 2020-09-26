@@ -1,13 +1,28 @@
-import React from 'react';
-import './App.css';
-import { HomeComponent } from './components/home/home.component';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import HomeComponent from './components/home/home.component';
+import ShortFilmsComponent from './components/shortfilms/shortfilms.component';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <HomeComponent />
-    </div>
+    <Router>
+      <div>
+          <Switch>
+            <Route exact path="/">
+              <HomeComponent />
+            </Route>
+            <Route path="/short-films">
+             <ShortFilmsComponent /> 
+        </Route>
+          </Switch>
+      </div>
+    </Router>
   );
-}
+};
 
-export default App;
+

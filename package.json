@@ -1,6 +1,6 @@
 {
   "name": "cinemanite-webpage",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "homepage": "https://laawe.github.io/cinemanite/",
   "dependencies": {
@@ -9,6 +9,7 @@
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
+    "react-router-dom": "5.2.0",
     "react-scripts": "3.0.1"
   },
   "scripts": {
