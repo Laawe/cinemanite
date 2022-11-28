@@ -1,0 +1,14 @@
+/* mobile */
+.homepage-header {
+    margin: 10rem auto;
+    display: flex;
+    position: relative;
+    flex-flow: column;
+    align-items: center;
+}
+
+.homepage-title {
+    font-size: 48px;
+}
+
+/* web */
