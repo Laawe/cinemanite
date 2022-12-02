@@ -1,12 +1,13 @@
 import React from 'react';
 import { Forehead } from './forehead/forehead';
 import { Footer } from './footer/footer';
+import styles from './layout.module.css';
 
 export const Layout = ({children}) => {
   return (
-    <div>
+    <div className={styles['layout-wrapper']}>
         <Forehead />
-        <main>{children}</main>
+        <main className={styles['layout-main']}>{children}</main>
         <Footer />
     </div>
   )
