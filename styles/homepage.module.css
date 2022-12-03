@@ -146,10 +146,6 @@
     .homepage-subtitle {
         line-height: 24px;
     }
-
-    .homepage-sub-subtitle {
-        text-decoration-thickness: 2px;
-    }
 }
 
 /* web - large resolution*/
@@ -170,9 +166,5 @@
     .homepage-subtitle {
         font-size: 34px;
         line-height: 38px;
-    }
-
-    .homepage-sub-subtitle {
-        text-decoration-thickness: 4px;
     }
 }

@@ -6,8 +6,8 @@ import styles from '../styles/homepage.module.css';
 const HomePage = () => {
     return (
         <Layout>
-            <section className={styles['homepage-header']}>
-                <div className={styles['homepage-wrap-gif']}>
+            <section className={styles['homepage-header']} role="Home section header">
+                <div className={styles['homepage-wrap-gif']} role="Gif wrapper">
                     <Image
                         className={styles['homepage-gif']}
                         src={cinemanite}
@@ -18,7 +18,7 @@ const HomePage = () => {
                     <div className={styles['homepage-wrap-subtitle']}>
                         {/* <span className={styles['homepage-emoji']} role="img" aria-label="film camera">🎥</span> */}
                         <span className={styles['homepage-subtitle']}>
-                            Cine, audiovisual. Colaboramos en el diseño y creación de tu proyecto. Bienvenido a <span className={styles['homepage-sub-subtitle']}><strong>Cinemanite</strong> /cinEma,nAit/ </span>
+                            Cine, audiovisual. Colaboramos en el diseño y creación de tu proyecto. Bienvenido a <span className={styles['homepage-sub-subtitle']}><strong>Cinemanite</strong></span>
                         </span>
                         {/* <section className={styles['homepage-subtitle-animation-wrap']}>
                             <div className={styles['homepage-subtitle-animation-first']}><p>cine</p></div>
