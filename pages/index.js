@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { Layout } from "../components/layout";
+import Image from 'next/image';
+import { Layout } from '../components/layout';
 import cinemanite from '../public/cinemanite.gif';
 import styles from '../styles/homepage.module.css';
 
