@@ -46,8 +46,7 @@
 }
 
 .homepage-sub-subtitle {
-    text-decoration: #976D0A underline;
-    text-decoration-thickness: 4px;
+    color: hsl(50deg 100% 50%);
 }
 
 .homepage-subtitle-animation-wrap {
