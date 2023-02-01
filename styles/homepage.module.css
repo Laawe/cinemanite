@@ -1,22 +1,12 @@
 /* mobile */
 .homepage-header {
-    margin: 10rem auto;
+    margin: 2rem auto;
     display: flex;
     position: relative;
     flex-flow: column;
     align-items: center;
     overflow: hidden;
     max-height: 500px;
-}
-
-.homepage-wrap-gif {
-    width: 320px;
-    max-width: 320px;
-}
-
-.homepage-gif {
-    width: 100%;
-    height: 100%;
 }
 
 .homepage-header-text {
@@ -37,8 +27,7 @@
     max-width: 320px;
 }
 
-.homepage-subtitle,
-.homepage-emoji {
+.homepage-subtitle {
     font-size: 16px;
     text-align: center;
     padding: 0 40px;
@@ -46,38 +35,8 @@
 }
 
 .homepage-sub-subtitle {
-    color: hsl(50deg 100% 50%);
+    color: hsla(50deg 100% 50%);
 }
-
-.homepage-subtitle-animation-wrap {
-    overflow: hidden;
-    margin-left: 6px;
-}
-
-.homepage-subtitle-animation-wrap>div>p {
-    padding: 0rem 0.4rem;
-    height: 2.81rem;
-    margin-bottom: 2.81rem;
-    display: inline-block;
-    font-size: 18px;
-}
-
-.homepage-subtitle-animation-first {
-    animation: text-animation 12s infinite;
-}
-
-@keyframes text-animation {
-    0% {margin-top: 0;}
-    10% {margin-top: 0;}
-    20% {margin-top: -5.62rem;}
-    30% {margin-top: -5.62rem;}
-    40% {margin-top: -11.24rem;}
-    60% {margin-top: -11.24rem;}
-    70% {margin-top: -5.62rem;}
-    80% {margin-top: -5.62rem;}
-    90% {margin-top: 0;}
-    100% {margin-top: 0;}
-  }
 
 .homepage-header-btn {
     margin-top: 26px;
@@ -105,7 +64,7 @@
 
 @media (min-width: 720px) {
     .homepage-header {
-        margin: 10rem auto;
+        margin: 5rem auto;
         display: flex;
         position: relative;
         align-items: center;
@@ -125,10 +84,6 @@
 
 /* web - min resolution */
 @media (min-width: 1024px) {
-    .homepage-wrap-gif {
-        width: 420px;
-        max-width: 420px;
-    }
 
     .homepage-title {
         font-size: 70px;
@@ -149,11 +104,6 @@
 
 /* web - large resolution*/
 @media (min-width: 1400px) {
-    .homepage-wrap-gif {
-        width: 520px;
-        max-width: 520px;
-    }
-
     .homepage-title {
         font-size: 78px;
     }
