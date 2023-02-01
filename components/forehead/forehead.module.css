@@ -1,0 +1,20 @@
+.forehead-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1rem;
+}
+
+.forehead-home-link-image {
+    width: 3rem;
+    height: 3rem;
+}
+
+.forehead-manifiesto-link,
+.forehead-manifiesto-link:visited {
+    text-decoration: none;
+}
+
+.forehead-manifiesto-link--em {
+    color: hsla(50deg 100% 50%);
+}
