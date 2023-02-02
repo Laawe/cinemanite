@@ -1,16 +1,13 @@
 /* mobile */
 .homepage-header {
-    margin: 2rem auto;
     display: flex;
     position: relative;
     flex-flow: column;
     align-items: center;
     overflow: hidden;
-    max-height: 500px;
 }
 
 .homepage-header-text {
-    margin-top: 24px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -64,17 +61,12 @@
 
 @media (min-width: 720px) {
     .homepage-header {
-        margin: 5rem auto;
         display: flex;
         position: relative;
         align-items: center;
         overflow: hidden;
         justify-content: space-evenly;
         flex-flow: nowrap;
-    }
-
-    .homepage-header-text {
-        margin-top: 0;
     }
 
     .homepage-wrap-subtitle {

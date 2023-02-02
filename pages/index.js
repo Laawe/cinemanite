@@ -18,7 +18,6 @@ const HomePage = () => {
                             Cine, audiovisual. Colaboramos en el diseño y creación de tu proyecto. Bienvenido a <em className={styles['homepage-sub-subtitle']}>Cinemanite</em>
                         </span>
                     </div>
-                    <button className={styles['homepage-header-btn']}>Conoce más</button>
                 </div>
             </section>
         </Layout>

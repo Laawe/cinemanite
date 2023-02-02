@@ -1,0 +1,24 @@
+.footer {
+    background-color: hsl(0deg 0% 100%);
+    position: relative;
+    color: hsl(0deg 0% 0%);
+    font-size: 12px;
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+    height: 10vh;
+    justify-content: center;
+}
+
+.footer-rrss {
+    display: flex;
+}
+
+.footer-link {
+    margin: 4px;
+}
+
+.footer-link-img {
+    width: 20px;
+    height: 20px;
+}
