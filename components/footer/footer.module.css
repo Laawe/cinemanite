@@ -22,3 +22,11 @@
     width: 20px;
     height: 20px;
 }
+
+/* web - min resolution */
+@media (min-width: 1024px) {
+    .footer {
+        flex-flow: nowrap;
+        justify-content: space-around;
+    }
+}
