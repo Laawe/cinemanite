@@ -1,0 +1,12 @@
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    isolation: isolate;
+}
+
+.card-image {
+    width: 50%;
+    height: 50%;
+}

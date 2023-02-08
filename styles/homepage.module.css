@@ -65,8 +65,6 @@
         position: relative;
         align-items: center;
         overflow: hidden;
-        justify-content: space-evenly;
-        flex-flow: nowrap;
     }
 
     .homepage-wrap-subtitle {

@@ -6,7 +6,6 @@
     display: flex;
     flex-flow: column-reverse;
     align-items: center;
-    height: 10vh;
     justify-content: center;
 }
 
