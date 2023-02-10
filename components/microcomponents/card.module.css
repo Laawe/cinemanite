@@ -1,12 +1,50 @@
 .card-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
     isolation: isolate;
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+    perspective: 1000px;
 }
 
-.card-image {
-    width: 50%;
-    height: 50%;
+.card-card {
+    transform-style: preserve-3d;
+    background-image: url('../../public/service1.jpg');
+    background-position: center center;
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
 }
+
+.card-content {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 0 0 10px 10px;
+    transition: all 0.5s ease-in-out;
+    padding: 44px 25px 0 25px;
+    transform-style: preserve-3d;
+    text-align: center;
+}
+
+.card-title {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    transition: all 0.5 ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+}
+
+.card-text {
+    padding-top: 10px;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+    font-size: 18px;
+}
+
+.card-title:hover,
+.card-text:hover {
+    transform: translate3d(0px, 0px, 50px);
+}
+
