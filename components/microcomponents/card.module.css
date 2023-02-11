@@ -9,7 +9,7 @@
 
 .card-card {
     transform-style: preserve-3d;
-    background-image: url('../../public/service1.jpg');
+    /* background-image: url('../../public/service1.jpg'); */
     background-position: center center;
     width: 100%;
     border-radius: 10px;
@@ -24,27 +24,57 @@
     transition: all 0.5s ease-in-out;
     padding: 44px 25px 0 25px;
     transform-style: preserve-3d;
-    text-align: center;
+    position: relative;
 }
 
 .card-title {
-    color: white;
-    font-size: 28px;
+    color: hsl(50deg 42% 84%);;
+    font-size: 24px;
     font-weight: 700;
     transition: all 0.5 ease-in-out;
     transform: translate3d(0px, 0px, 20px);
 }
 
 .card-text {
-    padding-top: 10px;
+    padding-top: 14px;
     color: white;
     transition: all 0.5s ease-in-out;
     transform: translate3d(0px, 0px, 20px);
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 26px;
+    letter-spacing: 0.02rem;
 }
 
 .card-title:hover,
 .card-text:hover {
     transform: translate3d(0px, 0px, 50px);
+}
+
+.card-link {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border: solid;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    position: absolute;
+    width: 240px;
+    bottom: 12px;
+}
+
+.card-link:hover {
+    background-image: linear-gradient(18deg,#B5872A,#485563,#2b5876,#4e4376);
+    box-shadow: 0 4px 15px 0 rgb(45 54 65 / 75%);
+}
+
+.card-link,
+.card-link:visited {
+    text-decoration: none;
 }
 

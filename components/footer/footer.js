@@ -18,16 +18,16 @@ export const Footer = () => {
       <section className={styles['footer-rightsreserved']}>{`${new Date().getFullYear()} Lawe. Derechos Reservados.`}</section>
       <section className={styles['footer-rrss']}>
         <Link className={styles['footer-link']} href={'https://www.facebook.com/cinemanite'}>
-          <Image src={facebook} className={styles['footer-link-img']} />
+          <Image alt='footer-img-facebook' src={facebook} className={styles['footer-link-img']} />
         </Link>
         <Link className={styles['footer-link']} href={'https://instagram.com/cinemanite'}>
-          <Image src={instagram} className={styles['footer-link-img']} />
+          <Image alt='footer-img-instagram' src={instagram} className={styles['footer-link-img']} />
         </Link>
         <Link className={styles['footer-link']} href={'https://www.youtube.com/channel/UCCg1tSRvt_TX3ebHpPYfwkA'}>
-          <Image src={youtube} className={styles['footer-link-img']} />
+          <Image alt='footer-img-youtube' src={youtube} className={styles['footer-link-img']} />
         </Link>
         <Link className={styles['footer-link']} href={'mailto:cinemanite@gmail.com'}>
-          <Image src={mail} className={styles['footer-link-img']} />
+          <Image alt='footer-img-email' src={mail} className={styles['footer-link-img']} />
         </Link>
       </section>
     </footer>
