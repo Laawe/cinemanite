@@ -57,6 +57,12 @@
     box-shadow: 0 4px 15px 0 rgb(45 54 65 / 75%);
 }
 
+.homepage-header-cards {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column;
+}
+
 /* medium phones to tablets */
 
 @media (min-width: 720px) {
@@ -65,8 +71,6 @@
         position: relative;
         align-items: center;
         overflow: hidden;
-        justify-content: space-evenly;
-        flex-flow: nowrap;
     }
 
     .homepage-wrap-subtitle {
@@ -91,6 +95,12 @@
 
     .homepage-subtitle {
         line-height: 24px;
+    }
+
+    .homepage-header-cards {
+        flex-flow: nowrap;
+        width: 100%;
+        justify-content: space-evenly;
     }
 }
 

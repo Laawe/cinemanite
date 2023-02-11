@@ -1,4 +1,5 @@
 import { Layout } from '../components/layout';
+import { Card } from '../components/microcomponents/card';
 import styles from '../styles/homepage.module.css';
 
 const HomePage = () => {
@@ -11,14 +12,30 @@ const HomePage = () => {
                         src={cinemanite}
                         alt="cinemanite logo gif" />
                 </div> */}
-                <div className={styles['homepage-header-text']}>
+                <section className={styles['homepage-header-text']}>
                     <h1 className={styles['homepage-title']}>¡Acción!</h1>
                     <div className={styles['homepage-wrap-subtitle']}>
                         <span className={styles['homepage-subtitle']}>
-                            Cine, audiovisual. Colaboramos en el diseño y creación de tu proyecto. Bienvenido a <em className={styles['homepage-sub-subtitle']}>Cinemanite</em>
+                            Cine, audiovisual. Bienvenido a <em className={styles['homepage-sub-subtitle']}>Cinemanite</em>
                         </span>
                     </div>
-                </div>
+                </section>
+                <section className={styles['homepage-header-cards']}>
+                    <Card 
+                        imageUrl={'/service1.jpg'}
+                        title="Video memoria de eventos"
+                        text="Creamos un producto audiovisual para tus redes sociales, páginas web o simplemente para guardarlo y disfrutarlo en el futuro."
+                        linkUrl={'https://www.youtube.com/@cinemanite/videos'}
+                        linkLabel="Ve más"
+                    />
+                    <Card
+                        imageUrl={'/service2.jpg'}
+                        title="Producción"
+                        text="Colaboramos en el diseño y creación de tu proyecto. Desde la preproducción, producción y postproducción del mismo."
+                        linkUrl={'https://instagram.com/cinemanite'}
+                        linkLabel="Contáctanos"
+                    />
+                </section>
             </section>
         </Layout>
     )
