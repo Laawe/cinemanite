@@ -6,17 +6,12 @@ const HomePage = () => {
     return (
         <Layout>
             <section className={styles['homepage-header']} role="Home section header">
-                {/* <div className={styles['homepage-wrap-gif']} role="Gif wrapper">
-                    <Image
-                        className={styles['homepage-gif']}
-                        src={cinemanite}
-                        alt="cinemanite logo gif" />
-                </div> */}
+
                 <section className={styles['homepage-header-text']}>
-                    <h1 className={styles['homepage-title']}>¡Acción!</h1>
+                    <h1 className={styles['homepage-title']}>Cine, audiovisual</h1>
                     <div className={styles['homepage-wrap-subtitle']}>
                         <span className={styles['homepage-subtitle']}>
-                            Cine, audiovisual. Bienvenido a <em className={styles['homepage-sub-subtitle']}>Cinemanite</em>
+                            Bienvenido a <em className={styles['homepage-sub-subtitle']}>Cinemanite</em>
                         </span>
                     </div>
                 </section>
