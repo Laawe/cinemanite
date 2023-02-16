@@ -8,6 +8,9 @@ export default function App({ Component, pageProps }) {
     return (
         <main className={font.className}>
             <Head>
+                <title>Cinemanite - cine y producción audiovisual</title>
+                <meta name='description' content='Página web de Cinemanite'/>
+                <link rel='icon' href='./cinemanite.jpg'/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
             </Head>
             <Component {...pageProps} />

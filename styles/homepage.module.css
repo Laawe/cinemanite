@@ -14,7 +14,7 @@
 }
 
 .homepage-title {
-    font-size: 48px;
+    font-size: 38px;
 }
 
 .homepage-wrap-subtitle {
@@ -25,7 +25,7 @@
 }
 
 .homepage-subtitle {
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     padding: 0 40px;
     line-height: 22px;
@@ -82,7 +82,7 @@
 @media (min-width: 1024px) {
 
     .homepage-title {
-        font-size: 70px;
+        font-size: 64px;
     }
 
     .homepage-wrap-subtitle {
@@ -90,10 +90,7 @@
     }
 
     .homepage-subtitle {
-        font-size: 24px;
-    }
-
-    .homepage-subtitle {
+        font-size: 28px;
         line-height: 24px;
     }
 
@@ -115,7 +112,7 @@
     }
 
     .homepage-subtitle {
-        font-size: 34px;
+        font-size: 38px;
         line-height: 38px;
     }
 }
