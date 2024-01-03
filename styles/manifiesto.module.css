@@ -15,6 +15,11 @@
     font-size: 1.6rem;
 }
 
+.manifiesto-second-p {
+    padding: 1rem;
+    text-align: center;
+}
+
 /* medium phones to tablets */
 
 @media (min-width: 720px) {

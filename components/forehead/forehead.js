@@ -10,7 +10,6 @@ export const Forehead = () => {
       <Link href="/" className={styles['forehead-home-link']}>
         <Image className={styles['forehead-home-link-image']} src={cinemanite} alt="home icon cinemanite" />
       </Link>
-      <Link className={styles['forehead-manifiesto-link']} href="/manifiesto"><em className={styles['forehead-manifiesto-link--em']}>manifiesto</em></Link>
     </section>
   )
 }

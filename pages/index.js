@@ -1,6 +1,6 @@
 import { Layout } from '../components/layout';
-import { Card } from '../components/microcomponents/card';
 import styles from '../styles/homepage.module.css';
+import manifiestoStyles from '../styles/manifiesto.module.css';
 
 const HomePage = () => {
     return (
@@ -15,21 +15,11 @@ const HomePage = () => {
                         </span>
                     </div>
                 </section>
-                <section className={styles['homepage-header-cards']}>
-                    <Card 
-                        imageUrl={'/service1.jpg'}
-                        title="Video memoria de eventos"
-                        text="Creamos un producto audiovisual para tus redes sociales, páginas web o simplemente para guardarlo y disfrutarlo en el futuro."
-                        linkUrl={'https://www.youtube.com/@cinemanite/videos'}
-                        linkLabel="Ve más"
-                    />
-                    <Card
-                        imageUrl={'/service2.jpg'}
-                        title="Producción"
-                        text="Colaboramos en el diseño y creación de tu proyecto. Desde la preproducción, producción y postproducción del mismo."
-                        linkUrl={'https://instagram.com/cinemanite'}
-                        linkLabel="Contáctanos"
-                    />
+                <section className={manifiestoStyles['manifiesto-wrapper']}>
+                    <p className={manifiestoStyles['manifiesto-second-p']}>
+                        Buscamos ser un medio para la creación audiovisual y cine, entendiendo todo tipo de formatos y géneros, sobre todo, una productora para todos aquellos que no tienen experiencia pero sí amor por el cine, no tienen una gran cantidad de recursos pero sí ganas de contar una historia.
+                        Aquellos jóvenes o no tanto que quieran hacer cine, con nosotros pueden contar.
+                    </p>
                 </section>
             </section>
         </Layout>
