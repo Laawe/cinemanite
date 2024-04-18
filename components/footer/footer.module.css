@@ -1,7 +1,7 @@
 .footer {
-    background-color: hsl(0deg 0% 100%);
+    background-color: #181A1B;
     position: relative;
-    color: hsl(0deg 0% 0%);
+    fill: currentColor;
     font-size: 12px;
     display: flex;
     flex-flow: column-reverse;
@@ -16,12 +16,11 @@
 }
 
 .footer-link {
-    margin: 4px;
+    margin: 10px;
 }
 
 .footer-link-img {
-    width: 20px;
-    height: 20px;
+    fill: hsl(0deg 0% 100%);
 }
 
 /* web - min resolution */
@@ -29,5 +28,13 @@
     .footer {
         flex-flow: nowrap;
         justify-content: space-around;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .footer-link-img {
+        fill: hsl(0deg 0% 100%);
+        width: 20px;
+        height: 20px;
     }
 }

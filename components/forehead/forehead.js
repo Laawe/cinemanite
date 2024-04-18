@@ -8,7 +8,9 @@ export const Forehead = () => {
   return (
     <section className={styles['forehead-wrapper']}>
       <Link href="/" className={styles['forehead-home-link']}>
-        <Image className={styles['forehead-home-link-image']} src={cinemanite} alt="home icon cinemanite" />
+        <div className={styles['forehead-home-link-circle']}>
+          <Image className={styles['forehead-home-link-image']} src={cinemanite} alt="home icon cinemanite" />
+        </div>
       </Link>
     </section>
   )

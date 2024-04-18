@@ -1,8 +1,15 @@
 .forehead-wrapper {
+    background-color: #181A1B;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0.6rem 1rem;
+}
+
+.forehead-home-link-circle {
+    border: 2px solid #181A1B;
+    border-radius: 80%;
+    overflow: hidden;
 }
 
 .forehead-home-link-image {
@@ -30,5 +37,11 @@
 @media (min-width: 1400px) {
     .forehead-manifiesto-link--em {
         font-size: 26px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .forehead-home-link-circle {
+        border: 2px solid #181A1B;
     }
 }
