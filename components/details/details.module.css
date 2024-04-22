@@ -1,0 +1,19 @@
+.home-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-details-card {
+    padding: 0 30px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 22px 2px rgb(211 124 24 / 57%);
+}
+
+/* medium phones to tablets */
+
+@media (min-width: 720px) {
+    .home-details-video {
+        height: 380px;
+    }
+}

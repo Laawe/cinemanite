@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
-import Image from 'next/image';
-import styles from './footer.module.css';
+import styles from './Footer.module.css';
 import { Arvo } from '@next/font/google'
 
 const arvo = Arvo({ subsets: ['latin'], weight: "400", style: "normal" })

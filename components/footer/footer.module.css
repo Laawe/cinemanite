@@ -24,10 +24,11 @@
 }
 
 /* web - min resolution */
-@media (min-width: 1024px) {
+@media (width >= 1024px) {
     .footer {
         flex-flow: nowrap;
         justify-content: space-around;
+        font-size: 18px;
     }
 }
 

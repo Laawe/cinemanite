@@ -1,0 +1,62 @@
+.education-wrapper {
+    margin-top: 4rem;
+}
+
+.education-title-wrapper {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoji {
+    font-size: calc(2rem + 2vw);
+    min-width: 2em;
+    margin: 0.3em 0.4em;
+    text-align: center;
+}
+
+.emoji::after {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.camera::after {
+    content: '🎬';
+    --emoji: '📽️';
+    animation-name: cinemaFrames;
+    animation-duration: 1.8s;
+}
+
+@keyframes cinemaFrames {
+    50% {
+        content: var(--emoji);
+    }
+}
+
+.education-paragraph {
+    padding: 0 28px;
+    margin: 10px 0;
+}
+
+@media (width >= 720px) {
+    .education-process {
+        font-size: 2em;
+    }
+
+    .education-paragraph {
+        font-size: 1.4rem;
+    }
+    
+}
+
+@media (width >= 1024px) {
+    .education-process {
+        font-size: 3em;
+    }
+
+    .education-paragraph {
+        font-size: 1.8rem;
+    }
+}

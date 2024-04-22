@@ -1,0 +1,47 @@
+.manifiesto-wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    padding: 1.4rem;
+    line-height: 1.8;
+    letter-spacing: 0.06rem;
+}
+
+.manifiesto-wrapper > *:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.manifiesto-title {
+    font-size: 1.6rem;
+}
+
+.manifiesto-second-p {
+    padding: 1rem;
+    text-align: center;
+}
+
+/* medium phones to tablets */
+
+@media (min-width: 720px) {
+    .manifiesto-title {
+        font-size: 2.2rem;
+    }
+
+    .manifiesto-first-p,
+    .manifiesto-second-p {
+        font-size: 1.4rem;
+    }
+}
+
+
+/* web - min resolution */
+@media (min-width: 1024px) {
+    .manifiesto-title {
+        font-size: 2.6rem;
+    }
+
+    .manifiesto-first-p,
+    .manifiesto-second-p {
+        font-size: 1.8rem;
+    }
+}

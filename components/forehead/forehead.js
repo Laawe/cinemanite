@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import cinemanite from '../../public/cinemanite.jpg';
-import styles from './forehead.module.css'
+import styles from './Forehead.module.css'
 
 export const Forehead = () => {
   return (
