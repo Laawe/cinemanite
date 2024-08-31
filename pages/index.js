@@ -1,3 +1,4 @@
+import { BackToTop } from '../components/backToTop/BackToTop';
 import { Details } from '../components/details/Details';
 import { Education } from '../components/education/Education';
 import { Layout } from '../components/Layout';
@@ -20,6 +21,7 @@ const HomePage = () => {
             </section>
             <Details />
             <Education />
+            <BackToTop />
         </Layout>
     )
 }

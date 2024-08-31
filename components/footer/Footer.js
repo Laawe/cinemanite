@@ -5,7 +5,6 @@ import { Arvo } from '@next/font/google'
 
 const arvo = Arvo({ subsets: ['latin'], weight: "400", style: "normal" })
 
-
 export const Footer = () => {
   return (
     <footer className={` ${styles['footer']} ${arvo.className}`}>

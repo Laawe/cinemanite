@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image'
 import styles from "./Preproduction.module.css";
+import { useOnDownload } from '../../../../hooks/useOnDownload';
 
 const Preproduction = () => {
   const [explainTitle, setExplainTitle] = useState(false);
@@ -17,6 +18,18 @@ const Preproduction = () => {
 
   const handleUpdateExplainActionScene = () => {
     setExplainActionScene(!explainActionScene);
+  }
+
+  const handleDownloadFormat = (id) => {
+    switch (id) {
+      case 1:
+        useOnDownload("/pre/shooting_list_guide.docx", "formatoShootingListCinemanite.docx");
+        break;
+      case 2:
+        useOnDownload("/pre/plan_rodaje-guide.xlsx", "formatoPlanRodajeCinemanite.xlsx");
+      default:
+        break;
+    }
   }
 
   return (
@@ -68,27 +81,92 @@ const Preproduction = () => {
       <br />
       <section>
         <h3>➤ Shooting List o lista de tomas</h3>
-        <p>Como se mencionó anteriormente en esta guía no se encuentran listados <strong>todos</strong> los formatos utilizados tradicionalmente si no aquellos con los que trabajamos para realizar nuestra serie web. <br /> Y la lista de tomas o el shooting list es uno de los formatos esenciales. Es en este formato que de manera técnica se agregan las tomas de las escenas así como su descripción.</p>
+        <p>Como se mencionó anteriormente en esta guía no se encuentran listados <strong>todos</strong> los formatos utilizados tradicionalmente si no aquellos con los que trabajamos para realizar nuestra serie web. <br />
+          Y la lista de tomas o el shooting list es uno de los formatos esenciales ya que
+          cada escena puede ser formada por una o varias tomas.
+          <br /> Es en este formato donde se debe agregar la información detallada de las mismas,
+          por ejemplo, aquí se desglosa información acerca del tipo de cámara a utilizar, el tipo de toma (close up, medio, full) y el movimiento de la cámara.
+        </p>
         <br />
         <section className={styles["pre-shooting-list-example-section"]}>
-          <div className={styles["pre-shooting-list-example-wrapper"]}>
-          <h4>Ejemplo del formato que puedes descargar.</h4>
-            <Image
-              src="/pre-shootinglist-1.png"
-              width={400}
-              height={300}
-              alt="Shooting list example" />
-              <br />
-            <Image
-              src="/pre-shootinglist-2.png"
-              width={400}
-              height={300}
-              alt="Shooting list example" />
+          <div className={styles["pre-shooting-example-wrapper"]}>
+            <h4>Ejemplo del formato que puedes descargar.</h4>
+            <br />
+            <video autoPlay muted loop>
+              <source src='/pre-shootinglist.mp4' type='video/mp4' />
+            </video>
+            <br />
+            <section className={styles["pre-shooting-example-buttons-actions"]}>
+              <button onClick={() => { handleDownloadFormat(1) }} className={styles["pre-shooting-example-button-format"]}>Descarga el formato para desglosar la información de tu producción.</button>
+            </section>
+            <br />
+          </div>
+        </section>
+      </section>
+      <br />
+      <section>
+        <h3>➤ Shooting Plan o plan de rodaje</h3>
+        <p>De todos los formatos este es el que probablemente menos se parezca a lo que se conoce en general como plan de rodaje, sin embargo posee muchas características de un formato tradicional con pequeños ajustes que funcionaron a la perfección para realizar la producción de Las Cuatro.
           <br />
-          <section className={styles["pre-shooting-list-example-buttons-actions"]}>
-            <button className={styles["pre-shooting-list-example-button-example"]}>Descarga el ejemplo real de la serie web</button>
-            <button className={styles["pre-shooting-list-example-button-format"]}>Descarga el formato para que realices tu producción</button>
-          </section>
+          Uno de los ajustes a destacar son los colores utilizados para las secciones. En el formato que puedes descargar se sugieren utilizar los mismos pero finalmente puedes utilizar los colores tradicionales o bien aquellos que te sean convenientes 😊. <br />
+          Conozcamos las secciones que conforman nuestro formato de plan de rodaje:
+        </p>
+        <div className={styles["pre-shooting-example-wrapper"]}>
+          <h4>Ejemplo del formato que puedes descargar.</h4>
+          <br />
+          <video autoPlay muted loop>
+            <source src="/pre-planrodaje.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <br />
+        <section className={styles["pre-shooting-plan-example-section"]}>
+          <div className={styles["pre-shooting-plan-example-wrapper"]}>
+            <section>
+              <h4>- Tiempo/Horario</h4>
+              <br />
+              <p>Independientemente del tamaño de una producción, la importancia de la delimitación del tiempo de cada evento hará la diferencia para poder lograr una producción que pueda avanzar con resultados a lo largo de los días. Procura delimitar el tiempo para catering o comida en general, así como para la preparación de las escenas y finalmente el tiempo máximo de cada toma.
+                Ahora bien, también es importante que se señalen los horarios de cada una de las acciones a tomar, esto evitará que la producción de un día se extienda por horas. <br /> Como recordarás, mucha de esta información se encuentra en el shooting list. En el formato descargable encontrarás las siguientes columnas en donde se coloca la información anteriormente descrita;</p>
+              <ul className={styles["pre-shooting-plan-example-time-ul"]}>
+                <li>Hora</li>
+                <li>Tiempo total (min/hrs)</li>
+                <li>Tiempo prep (o tiempo de preparación de toma)</li>
+                <li>Tiempo rodaje (o tiempo total de grabación)</li>
+              </ul>
+            </section>
+            <br />
+            <section>
+              <h4>- Escena/Emplazamiento</h4>
+              <br />
+              <p>De los resultados del ejercicio de realizar el <strong>shooting list</strong>, obtenemos del formato las columnas "Scene" y "Shot # (number)", es decir, el número o nombre de la escena y el número (o nombre) de la toma.
+                Estos datos se vacían en este formato en el orden en el que deben ser grabados.
+              </p>
+            </section>
+            <br />
+            <section>
+              <h4>- Creación de escena</h4>
+              <br />
+              <p className={styles["pre-shooting-plan-example-camera-description"]}>Otra sección importante son todos los detalles referentes a la creación de la escena; el plano a usar, el movimiento de la cámara y si será una escena de interior o exterior. Nuevamente tomamos esta información del formato <strong>shooting list</strong>.
+              </p>
+              <h4>Información adicional:</h4>
+              <ul>
+                <li>Planos: La respuesta más sencilla para explicar ¿Qué es un plano? Sería; ¿Qué tanto queremos que se vea en nuestra escena? Podemos ir desde abarcar la pantalla viendo un pequeño objeto hasta ver un espacio sumamente amplio.</li>
+                <li>Movimiento de cámara: ¿Se necesita que la cámara se mueva o no? Y en su caso, ¿Hacia dónde o quién se dirige?, ¿A qué velocidad? Son algunas preguntas que se pueden hacer para conocer el tipo de movimiento, dependerá de la escena.</li>
+              </ul>
+            </section>
+            <br />
+            <section>
+              <h4>- Crew-Equipo</h4>
+              <br />
+              <p className={styles["pre-shooting-plan-example-crew-description"]}>
+                Ahora que sabemos en que horario estaremos trabajando así como la escena a realizar, debemos contemplar a las personas que estarán colaborando en la creación de esa escena.
+                No queremos que todo el equipo esté presente si no es necesario puesto que eso resulta desgastante, por eso añadimos las columnas de "Crew ID" y "Cast ID". Ya que cada miembro cuenta con un número
+                identificador, en caso de que una producción lo desee basta con agregar los nombres de cada persona involucrada.
+              </p>
+            </section>
+            <br />
+            <section className={styles["pre-shooting-example-buttons-actions"]}>
+              <button onClick={() => { handleDownloadFormat(2) }} className={styles["pre-shooting-example-button-format"]}>Descarga el formato de plan de rodaje para organizar la producción.</button>
+            </section>
           </div>
         </section>
       </section>
