@@ -51,3 +51,10 @@ button {
     box-shadow: none;
     cursor: pointer;
 }
+
+.button-format {
+    background-color: hsl(18.95deg 89.07% 45.93% / 93%);
+    border-radius: 10px;
+    padding: 4px;
+    color: #fcf2f2;
+}
