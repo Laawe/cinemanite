@@ -1,13 +1,14 @@
-import { Details } from '../components/details/Details';
-import { Education } from '../components/education/Education';
-import { Layout } from '../components/Layout';
+import { BackToTop } from '../src/components/backToTop/BackToTop';
+import { Details } from '../src/components/details/Details';
+import { Education } from '../src/components/education/Education';
+import { Layout } from '../src/components/Layout';
 import styles from './homepage.module.css';
 import manifiestoStyles from './manifiesto.module.css';
 
 const HomePage = () => {
     return (
         <Layout>
-            <section className={styles['homepage-header']} role="Home section header">
+            <section className={styles['homepage-header']}>
                 <section className={styles['homepage-header-text']}>
                     <div className={styles['homepage-wrap-subtitle']}>
                         <span className={styles['homepage-subtitle']}>
@@ -20,6 +21,7 @@ const HomePage = () => {
             </section>
             <Details />
             <Education />
+            <BackToTop />
         </Layout>
     )
 }
