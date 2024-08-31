@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from "./Details.module.css";
 import { Arvo } from '@next/font/google';
 
