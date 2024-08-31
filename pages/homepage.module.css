@@ -81,39 +81,9 @@
 
 /* web - min resolution */
 @media (width >= 1024px) {
-
-    .homepage-title {
-        font-size: 64px;
-    }
-
-    .homepage-wrap-subtitle {
-        max-width: 580px;
-    }
-
-    .homepage-subtitle {
-        font-size: 38px;
-        line-height: 24px;
-    }
-
     .homepage-header-cards {
         flex-flow: nowrap;
         width: 100%;
         justify-content: space-evenly;
-    }
-}
-
-/* web - large resolution*/
-@media (width >= 1400px) {
-    .homepage-title {
-        font-size: 78px;
-    }
-
-    .homepage-wrap-subtitle {
-        max-width: 728px;
-    }
-
-    .homepage-subtitle {
-        font-size: 48px;
-        line-height: 38px;
     }
 }

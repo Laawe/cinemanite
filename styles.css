@@ -51,3 +51,16 @@ button {
     box-shadow: none;
     cursor: pointer;
 }
+
+.button-format {
+    background-color: #A32E05;
+    border-radius: 10px;
+    padding: 4px;
+    color: #fff;
+}
+
+@media (width >= 720px) {
+    .button-format {
+        padding: 10px;
+    }
+}

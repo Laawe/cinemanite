@@ -1,5 +1,6 @@
 .education-layout-w {
     margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .education-layout-c {
@@ -12,7 +13,7 @@
 }
 
 .education-layout-btn {
-    width: 150px;
+    width: 160px;
     font-weight: 500;
     padding: 8px;
     background-color: #f4f0f0;

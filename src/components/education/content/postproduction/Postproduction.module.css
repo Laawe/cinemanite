@@ -1,0 +1,16 @@
+.post-editing-wrapper {
+    margin-top: 10px;
+}
+
+.post-editing-diagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.post-editing-diagram-img {
+    width: 400px;
+    height: auto;
+}

@@ -57,32 +57,37 @@
 /* script section ends */
 
 /* shooting list section */
-.pre-shooting-list-example-wrapper {
+.pre-shooting-example-wrapper {
     padding: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.pre-shooting-list-example-buttons-actions {
+.pre-shooting-example-buttons-actions {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.pre-shooting-list-example-button-example,
-.pre-shooting-list-example-button-format {
-    background-color: hsl(50deg 89.07% 45.93% / 75%);;
-    border-radius: 10px;
-    padding: 4px;
-    color: #e5e1e1;
-}
-
-.pre-shooting-list-example-button-format {
-    margin-left: 16px;
-}
-
 /* shooting list section ends */
+
+/* shooting plan section */
+.pre-shooting-plan-example-time-img,
+.pre-shooting-plan-example-scene-img {
+    margin: 0 auto;
+}
+
+.pre-shooting-plan-ul {
+    padding: 22px 22px 0 22px;
+}
+
+.pre-shooting-plan-example-camera-description,
+.pre-shooting-plan-example-crew-description {
+    margin-top: 10px;
+}
+
+/* shooting plan section ends */
 
 /* common styles */
 .tooltip-trigger {
