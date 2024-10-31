@@ -1,4 +1,4 @@
-# cinemanite
+# cinemanite v. 2.0.0
 
 ### ¿De dónde surge la necesidad de cambiar o regenerar esta web?
 
