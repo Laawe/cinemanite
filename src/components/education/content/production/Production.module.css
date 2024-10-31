@@ -1,0 +1,17 @@
+.prod-visual-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.production > p {
+    margin-top: 4px;
+}
+
+.prod-script-how {
+    margin-top: 20px;
+}
+
+.prod-script-how-ul {
+    padding: 22px;
+}

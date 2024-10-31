@@ -1,0 +1,62 @@
+.education-layout-w {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.education-layout-c {
+    margin: 0 16px;
+}
+
+.film-strip {
+    display: flex;
+    justify-content: center;
+}
+
+.education-layout-btn {
+    width: 160px;
+    font-weight: 500;
+    padding: 8px;
+    background-color: #f4f0f0;
+    border-radius: 12px;
+    transition: all 0.3s ease 0s;
+    color: #000;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.education-layout-btn-clicked,
+.education-layout-btn:hover {
+    background-color: hsla(50deg 100% 50%);
+    transform: translateY(-8px);
+}
+
+@media (width >= 720px) {
+    .education-layout-w {
+        margin-bottom: 26px;
+    }
+
+    .education-layout-btn {
+        width: 220px;
+        font-size: 1.4rem;
+        padding: 12px;
+    }
+
+    .education-layout-c {
+        margin: 0 30px;
+    }
+}
+
+@media (width >= 1024px) {
+    .education-layout-w {
+        margin-bottom: 30px;
+    }
+
+    .education-layout-btn {
+        width: 280px;
+        font-size: 1.8rem;
+        padding: 12px;
+    }
+
+    .education-layout-c {
+        margin: 0 50px;
+    }
+}

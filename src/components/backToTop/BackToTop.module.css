@@ -1,0 +1,30 @@
+.back-to-top {
+    position: fixed;
+    width: 50px;
+    right: 61px;
+    bottom: 14px;
+    height: 54px;
+    font-size: 3rem;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #6f7f7b;
+    background-color: #f4f0f0;
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0.3s linear,opacity 0.3s linear;
+}
+
+.back-to-top::before {
+    content: "";
+    position: absolute;
+    inset: 33%;
+    transform: translateY(18%) rotate(-45deg);
+    border-top: 6px solid #A32E05;
+    border-right: 6px solid #A32E05;
+}
+
+.back-to-top-visible {
+    visibility: visible;
+    opacity: 1;
+}

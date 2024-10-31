@@ -1,0 +1,47 @@
+.forehead-wrapper {
+    background-color: #181A1B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1rem;
+}
+
+.forehead-home-link-circle {
+    border: 2px solid #181A1B;
+    border-radius: 80%;
+    overflow: hidden;
+}
+
+.forehead-home-link-image {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.forehead-manifiesto-link,
+.forehead-manifiesto-link:visited {
+    text-decoration: none;
+}
+
+.forehead-manifiesto-link--em {
+    color: hsla(50deg 100% 50%);
+}
+
+/* web - min resolution */
+@media (min-width: 1024px) {
+    .forehead-manifiesto-link--em {
+        font-size: 22px;
+    }
+}
+
+/* web - large resolution*/
+@media (min-width: 1400px) {
+    .forehead-manifiesto-link--em {
+        font-size: 26px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .forehead-home-link-circle {
+        border: 2px solid #181A1B;
+    }
+}

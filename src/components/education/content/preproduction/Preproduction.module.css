@@ -1,0 +1,141 @@
+/* script section */
+.pre-script-example-wrapper {
+    background-color: #faf2f2;
+    padding: 1em;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+.pre-script-example-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pre-script-example-title > div,
+.pre-script-example-scene-description > div,
+.pre-script-example-scene-actions > div {
+    display: flex;
+    align-items: center;
+}
+
+.pre-script-example-scene-description > div {
+    align-self: flex-start;
+}
+
+.pre-script-example-scene-actions > div {
+    align-items: flex-start;
+}
+
+.pre-script-example-scene-description {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pre-script-example-title,
+.pre-script-example-scene-description,
+.pre-script-example-scene-actions {
+    margin-bottom: 10px;
+}
+
+.pre-script-example-scene-description-list,
+.pre-script-example-title-description-p,
+.pre-script-example-scene-description-actions-p {
+    padding: 2px 36px;
+    filter: drop-shadow(0 3px 5px #ccc);
+    border-radius: 6px;
+    filter: drop-shadow(0 3px 5px #ccc);
+    border-radius: 6px;
+    background: #d2c9c9;
+    margin: 12px 0;
+}
+
+/* script section ends */
+
+/* shooting list section */
+.pre-shooting-example-wrapper {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pre-shooting-example-buttons-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* shooting list section ends */
+
+/* shooting plan section */
+.pre-shooting-plan-example-time-img,
+.pre-shooting-plan-example-scene-img {
+    margin: 0 auto;
+}
+
+.pre-shooting-plan-ul {
+    padding: 22px 22px 0 22px;
+}
+
+.pre-shooting-plan-example-camera-description,
+.pre-shooting-plan-example-crew-description {
+    margin-top: 10px;
+}
+
+/* shooting plan section ends */
+
+/* common styles */
+.tooltip-trigger {
+    margin-left: 6px;
+    background-color: #000;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 66px;
+}
+
+.flex-base {
+    flex: 1;
+}
+
+.flex-base-big {
+    flex-grow: 4;
+}
+/* common styles ends */
+
+/* unused tooltip */
+.tooltip {
+    padding: 18px 32px;
+    background: #fff;
+    position: absolute;
+    width: 220px;
+    border-radius: 5px;
+    text-align: center;
+    filter: drop-shadow(0 3px 5px #ccc);
+    line-height: 1.5;
+    display: none;
+    bottom: 40px;
+    margin-right: -110px;
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    margin-left: -9px;
+    width: 18px;
+    height: 18px;
+    background: white;
+    transform: rotate(45deg);
+}
+
+.tooltip-trigger:hover + .tooltip {
+    display: block;
+}
+/* unused tooltip ends */
